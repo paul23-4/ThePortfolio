@@ -12,9 +12,9 @@ I am a full-stack developer and healthcare professional based in Kent, Washingto
 
 ## Featured work
 
+- **[ShiftSignal](https://shift-signal-dashboard.thiongopaul4995.chatgpt.site)** — Original healthcare handoff dashboard with priority filters, observation-level visibility, task completion, and dynamic shift progress.
 - **Pizza Restaurant API** — Flask REST API with SQLAlchemy relationships, validation, serialization, and cascade deletion.
 - **Bot Battlr** — React interface using remote data, reusable components, state, and conditional views.
-- **Vendor Sweets API** — Flask and React foundations for a many-to-many marketplace domain.
 
 ## Technologies
 

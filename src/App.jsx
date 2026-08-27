@@ -3,31 +3,33 @@ import './App.css';
 const projects = [
   {
     index: "01",
+    title: "ShiftSignal",
+    type: "Original healthcare product",
+    description:
+      "An interactive shift-handoff dashboard shaped by frontline care experience—prioritizing observation levels, safety-critical changes, open tasks, and accountable completion.",
+    stack: ["React", "TypeScript", "Workflow UX", "Responsive UI"],
+    href: "https://shift-signal-dashboard.thiongopaul4995.chatgpt.site",
+    destination: "live project",
+  },
+  {
+    index: "02",
     title: "Pizza Restaurant API",
     type: "Backend engineering",
     description:
       "A Flask REST API with relational data modeling, request validation, serialization, cascade deletion, and structured error responses.",
     stack: ["Python", "Flask", "SQLAlchemy", "REST"],
     href: "https://github.com/paul23-4/Phase-4-PizzasCodeChallenge",
+    destination: "GitHub",
   },
   {
-    index: "02",
+    index: "03",
     title: "Bot Battlr",
     type: "Frontend engineering",
     description:
       "A React interface for browsing a remote dataset, inspecting individual records, and managing a user-selected collection through reusable components.",
     stack: ["React", "JavaScript", "REST API", "CSS"],
     href: "https://github.com/paul23-4/Bot-battlr5",
-  },
-  {
-    index: "03",
-    title: "Vendor Sweets API",
-    type: "Full-stack foundations",
-    description:
-      "A many-to-many marketplace API connecting vendors and products, with validation, persistence, and a React client for exercising the endpoints.",
-    stack: ["Python", "Flask", "React", "Data modeling"],
-    href:
-      "https://github.com/paul23-4/Phase-4-Code-Challenge-VendorSweets-062223",
+    destination: "GitHub",
   },
 ];
 
@@ -130,11 +132,11 @@ function App() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Selected engineering work</p>
-            <h2>Built to learn. Ready to evolve.</h2>
+            <h2>Domain insight, turned into software.</h2>
           </div>
           <p>
-            A focused selection spanning frontend state, REST APIs, validation,
-            and relational data models.
+            Original healthcare product thinking backed by frontend state, REST
+            APIs, validation, and relational data models.
           </p>
         </div>
 
@@ -157,7 +159,7 @@ function App() {
                 href={project.href}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={`View ${project.title} on GitHub`}
+                aria-label={`View ${project.title} ${project.destination}`}
               >
                 <ArrowIcon />
               </a>
